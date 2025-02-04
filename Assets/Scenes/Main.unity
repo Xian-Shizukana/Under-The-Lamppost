@@ -646,7 +646,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 581243767}
         m_TargetAssemblyTypeName: ButtonScript, Assembly-CSharp
-        m_MethodName: Restart
+        m_MethodName: Start
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1286,6 +1286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Page_1: {fileID: 539840827}
   Page_2: {fileID: 39188600}
+  Page_3: {fileID: 950522164}
   EndScreen: {fileID: 1180194229}
 --- !u!4 &581243768
 Transform:
@@ -1652,7 +1653,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 745363765}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 581243767}
+        m_TargetAssemblyTypeName: ButtonScript, Assembly-CSharp
+        m_MethodName: PageThree
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &745363765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2568,6 +2581,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Page_1: {fileID: 0}
   Page_2: {fileID: 0}
+  Page_3: {fileID: 0}
   EndScreen: {fileID: 0}
 --- !u!1 &1558085218
 GameObject:
