@@ -46,10 +46,23 @@ public class ButtonScript : MonoBehaviour
         Page_3.SetActive(false);
         Page_4.SetActive(true);
     }
+
     public void PageFive()
     {
         Page_4.SetActive(false);
         Page_5.SetActive(true);
+    }
+
+    public void PageSix()
+    {
+        Page_5.SetActive(false);
+        Page_6.SetActive(true);
+    }
+
+    public void PageSeven()
+    {
+        Page_5.SetActive(false);
+        Page_7.SetActive(true);
     }
 
     public void End()
